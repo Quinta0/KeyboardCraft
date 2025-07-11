@@ -12,8 +12,8 @@
     "specs": {
       "layout": "60%"
     },
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251755"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137111"
   },
   {
     "id": "kbdfans-margo-case",
@@ -25,9 +25,11 @@
     "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'/%3E",
     "product_url": "https://kbdfans.com/collections/case/products/margo-case",
     "retailer": "KBDfans",
-    "specs": {},
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251727"
+    "specs": {
+      "layout": "65%"
+    },
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137068"
   },
   {
     "id": "kbdfans-tofu60-20-case",
@@ -42,8 +44,8 @@
     "specs": {
       "layout": "60%"
     },
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251764"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137118"
   },
   {
     "id": "kbdfans-tofu65-20-case",
@@ -58,8 +60,8 @@
     "specs": {
       "layout": "65%"
     },
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251771"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137124"
   },
   {
     "id": "kbdfans-461e-case",
@@ -72,8 +74,8 @@
     "product_url": "https://kbdfans.com/collections/case/products/461e-case",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251735"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137093"
   },
   {
     "id": "novelkeys-gingham-keyboard-kit---picnic-edition",
@@ -86,8 +88,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/gingham-keyboard-kit-picnic-edition",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:34",
-    "updated_at": "2025-07-11T21:19:34.466965"
+    "created_at": "2025-07-11 19:37:21",
+    "updated_at": "2025-07-11T21:37:21.351353"
   },
   {
     "id": "novelkeys-seigaiha-keyboard-kit",
@@ -100,8 +102,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/seigaiha-keyboard-kit",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:34",
-    "updated_at": "2025-07-11T21:19:34.466982"
+    "created_at": "2025-07-11 19:37:21",
+    "updated_at": "2025-07-11T21:37:21.351387"
   },
   {
     "id": "novelkeys-random-b-stock-wilbatech-salvation-case",
@@ -114,8 +116,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/random-wilba-tech-salvation",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:34",
-    "updated_at": "2025-07-11T21:19:34.467061"
+    "created_at": "2025-07-11 19:37:21",
+    "updated_at": "2025-07-11T21:37:21.351454"
   },
   {
     "id": "kbdfans-gt-60-case",
@@ -130,8 +132,8 @@
     "specs": {
       "layout": "60%"
     },
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251678"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137033"
   },
   {
     "id": "kbdfans-k-kbdfans-gt-80-case",
@@ -146,8 +148,8 @@
     "specs": {
       "layout": "TKL"
     },
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251694"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137047"
   },
   {
     "id": "kbdfans-holy60-case",
@@ -162,8 +164,8 @@
     "specs": {
       "layout": "60%"
     },
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251745"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137104"
   },
   {
     "id": "kbdfans-holy80-case",
@@ -178,8 +180,8 @@
     "specs": {
       "layout": "TKL"
     },
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251457"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.136802"
   },
   {
     "id": "kbdfans-special-edition-tofu60-redux-case",
@@ -194,8 +196,8 @@
     "specs": {
       "layout": "60%"
     },
-    "created_at": "2025-07-11 19:21:03",
-    "updated_at": "2025-07-11T21:21:03.251718"
+    "created_at": "2025-07-11 19:38:50",
+    "updated_at": "2025-07-11T21:38:50.137056"
   },
   {
     "id": "novelkeys-nk65---aluminum-edition",
@@ -224,8 +226,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/jtk-beige",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690161"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460661"
   },
   {
     "id": "mechanicalkeyboards-2-3-random-keycaps",
@@ -238,8 +240,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983139"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014003"
   },
   {
     "id": "kbdfans-pbtfans-lucy-r2",
@@ -254,8 +256,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690200"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460699"
   },
   {
     "id": "kbdfans-epbt-creative-studio",
@@ -270,8 +272,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690102"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460609"
   },
   {
     "id": "kbdfans-jtk-first-scenic-boulevard",
@@ -284,8 +286,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/jtk-first-scenic-boulevard",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690152"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460655"
   },
   {
     "id": "kbdfans-jtk-hsa-profile-gold-rush-abs-keycaps",
@@ -300,8 +302,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690143"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460645"
   },
   {
     "id": "mechanicalkeyboards-key-kobo-cherries-double-shot-",
@@ -316,8 +318,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983205"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014072"
   },
   {
     "id": "kbdfans-pbtfans-rim-r2",
@@ -332,8 +334,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690062"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460562"
   },
   {
     "id": "mechanicalkeyboards-key-kobo-col-double-shot-abs-k",
@@ -348,8 +350,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983219"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014090"
   },
   {
     "id": "mechanicalkeyboards-kbdfans-pbtfans-retro-dark-lig",
@@ -364,8 +366,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983052"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013892"
   },
   {
     "id": "mechanicalkeyboards-ducky-purple---white-pudding-8",
@@ -378,10 +380,11 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {
+      "layout": "TKL",
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003646"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142579"
   },
   {
     "id": "mechanicalkeyboards-key-kobo-one-more-rep-keycap-s",
@@ -394,8 +397,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983197"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014062"
   },
   {
     "id": "mechanicalkeyboards-hot-keys-project-hkp-specter-y",
@@ -408,8 +411,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982812"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013609"
   },
   {
     "id": "mechanicalkeyboards-hot-keys-project-hkp-specter-c",
@@ -422,8 +425,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982828"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013643"
   },
   {
     "id": "kbdfans-makingo-crystal-lattice-of-cells-artisan-m",
@@ -436,8 +439,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/makingo-crystal-lattice-of-cells-artisan-metal-keycap",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690172"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460669"
   },
   {
     "id": "kbdfans-gmk-black--gold",
@@ -450,8 +453,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-black-gold",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690225"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460728"
   },
   {
     "id": "mechanicalkeyboards-hot-keys-project-hkp-dead-man-",
@@ -464,8 +467,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982799"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013390"
   },
   {
     "id": "mechanicalkeyboards-hot-keys-project-hkp-astronsku",
@@ -478,8 +481,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982820"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013633"
   },
   {
     "id": "mechanicalkeyboards-hot-keys-project-hkp-warmaster",
@@ -492,8 +495,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982851"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013671"
   },
   {
     "id": "mechanicalkeyboards-hot-keys-project-hkp-overlord-",
@@ -506,8 +509,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982858"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013679"
   },
   {
     "id": "mechanicalkeyboards-hot-keys-project-hkp-bucket-he",
@@ -520,8 +523,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982843"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013653"
   },
   {
     "id": "mechanicalkeyboards-hot-keys-project-hkp-kitsune-b",
@@ -534,8 +537,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982866"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013689"
   },
   {
     "id": "mechanicalkeyboards-ducky-pink-backlit-31-key-oem-",
@@ -550,8 +553,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983400"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014200"
   },
   {
     "id": "mechanicalkeyboards-mk-x-ducky-good-in-blue-108-ke",
@@ -566,8 +569,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003825"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142769"
   },
   {
     "id": "kbdfans-gmk-cyl-copper-r2",
@@ -580,8 +583,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-cyl-copper-r2",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690212"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460716"
   },
   {
     "id": "mechanicalkeyboards-ducky-x-mk-creator-purple-back",
@@ -596,8 +599,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003701"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142630"
   },
   {
     "id": "mechanicalkeyboards-keychron-black-on-white-141-ke",
@@ -612,8 +615,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003803"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142737"
   },
   {
     "id": "mechanicalkeyboards-keychron-grey-141-key-osa-prof",
@@ -628,8 +631,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983092"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013946"
   },
   {
     "id": "mechanicalkeyboards-keychron-grey--silver-140-key-",
@@ -642,10 +645,11 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {
+      "layout": "40%",
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003758"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142697"
   },
   {
     "id": "mechanicalkeyboards-topre-realforce-r3-keycap-set",
@@ -658,8 +662,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983076"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013917"
   },
   {
     "id": "mechanicalkeyboards-topre-realforce-rc1-keycap-set",
@@ -672,8 +676,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983101"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013963"
   },
   {
     "id": "mechanicalkeyboards-keychron-dark-grey---greyish-b",
@@ -686,10 +690,11 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {
+      "layout": "40%",
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983110"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013973"
   },
   {
     "id": "novelkeys-cyl-nord",
@@ -702,8 +707,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-nord-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749753"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030124"
   },
   {
     "id": "mechanicalkeyboards-hardcap-x-ducky-azure-108-key-",
@@ -718,8 +723,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003742"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142680"
   },
   {
     "id": "mechanicalkeyboards-hardcap-x-ducky-afterglow-108-",
@@ -734,8 +739,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983044"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013883"
   },
   {
     "id": "kbdfans-electronic-pet",
@@ -748,8 +753,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/electronic-pet",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690182"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460675"
   },
   {
     "id": "kbdfans-gmk-cyl-astraeus",
@@ -762,8 +767,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-cyl-astraeus",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690218"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460722"
   },
   {
     "id": "kbdfans-mtnu-modern-dolch",
@@ -776,8 +781,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/mtnu-modern-dolch",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690092"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460600"
   },
   {
     "id": "kbdfans-retro-rainbow",
@@ -790,8 +795,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/retro-rainbow",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690111"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460617"
   },
   {
     "id": "novelkeys-cyl-tribal",
@@ -804,8 +809,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-tribal-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749704"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030085"
   },
   {
     "id": "kbdfans-gmk-cyl-darling",
@@ -818,8 +823,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-cyl-darling",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690119"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460625"
   },
   {
     "id": "kbdfans-gmk-cyl-hyperbeige",
@@ -832,8 +837,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-cyl-hyperbeige",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690082"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460592"
   },
   {
     "id": "mechanicalkeyboards-click-inc-comic-dye-sub-keycap",
@@ -848,8 +853,8 @@
     "specs": {
       "switch_type": "clicky"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003681"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142609"
   },
   {
     "id": "novelkeys-cyl-cr\u00e8me",
@@ -862,8 +867,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-creme-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749723"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030093"
   },
   {
     "id": "mechanicalkeyboards-hhkb-dandelion-60-key-topre-ke",
@@ -878,8 +883,8 @@
     "specs": {
       "layout": "60%"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003768"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142704"
   },
   {
     "id": "kbdfans-gmk-mtnu-darling",
@@ -892,8 +897,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-mtnu-darling",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690125"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460636"
   },
   {
     "id": "kbdfans-tut-yakeylt-\u767d\u6843\u98a8\u5473",
@@ -906,8 +911,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/tut-yakeylt",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690192"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460683"
   },
   {
     "id": "novelkeys-cyl-phantom-r2",
@@ -920,8 +925,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-phantom-r2-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749766"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030136"
   },
   {
     "id": "novelkeys-cyl-griseann-2",
@@ -934,8 +939,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-griseann-2-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749772"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030143"
   },
   {
     "id": "kbdfans-gmk-cyl-beta-js",
@@ -948,8 +953,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-cyl-beta-js",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690044"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460546"
   },
   {
     "id": "novelkeys-cyl-mars-cadet",
@@ -962,8 +967,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-mars-cadet-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749736"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030099"
   },
   {
     "id": "novelkeys-cyl-shinseiki",
@@ -976,8 +981,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-shinseiki-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749742"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030110"
   },
   {
     "id": "novelkeys-cyl-darling",
@@ -990,8 +995,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-darling-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749748"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030118"
   },
   {
     "id": "novelkeys-mtnu-dolch",
@@ -1004,8 +1009,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-mtnu-dolch-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749785"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030149"
   },
   {
     "id": "novelkeys-cyl-oblivion-v31",
@@ -1018,8 +1023,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-oblivion-v3-1-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749802"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030162"
   },
   {
     "id": "kbdfans-gmk-cyl-flare",
@@ -1032,8 +1037,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-cyl-flare",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.689794"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460291"
   },
   {
     "id": "novelkeys-cyl-winkler",
@@ -1046,8 +1051,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-winkler-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749697"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030071"
   },
   {
     "id": "novelkeys-random-warehouse-keycaps",
@@ -1060,8 +1065,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/random-warehouse-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749630"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030001"
   },
   {
     "id": "novelkeys-cyl-any-keys",
@@ -1074,8 +1079,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-any-keys-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749684"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030028"
   },
   {
     "id": "novelkeys-cyl-blue-alert-r2",
@@ -1088,8 +1093,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-blue-alert-r2-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749691"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030051"
   },
   {
     "id": "novelkeys-mtnu-darling",
@@ -1102,8 +1107,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-mtnu-darling-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749791"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030155"
   },
   {
     "id": "novelkeys-cyl-ftro",
@@ -1116,8 +1121,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-ftro-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749808"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030168"
   },
   {
     "id": "novelkeys-cyl-hyperbeige",
@@ -1130,8 +1135,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-hyperbeige-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749678"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030019"
   },
   {
     "id": "kbdfans-gmk-mtnu-copper-r2",
@@ -1144,8 +1149,8 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/gmk-mtnu-copper-r2",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690206"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460709"
   },
   {
     "id": "novelkeys-cyl-extended-2048",
@@ -1158,8 +1163,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-extended-2048-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749760"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.030130"
   },
   {
     "id": "kbdfans-ready-to-use-corgi-fairlady-alice-with-pbt",
@@ -1172,10 +1177,11 @@
     "product_url": "https://kbdfans.com/collections/keycaps/products/ready-to-use-corgi-fairlady-alice-with-pbtfans-rim-r2",
     "retailer": "KBDfans",
     "specs": {
+      "layout": "Alice",
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690312"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460764"
   },
   {
     "id": "kbdfans-ready-to-use-odin-75-hot-swap-keyboard-wit",
@@ -1191,8 +1197,8 @@
       "layout": "75%",
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:20:57",
-    "updated_at": "2025-07-11T21:20:57.690298"
+    "created_at": "2025-07-11 19:38:44",
+    "updated_at": "2025-07-11T21:38:44.460756"
   },
   {
     "id": "novelkeys-gmk-child-kits",
@@ -1205,8 +1211,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-child-kits",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:19:04",
-    "updated_at": "2025-07-11T21:19:04.749620"
+    "created_at": "2025-07-11 19:36:51",
+    "updated_at": "2025-07-11T21:36:51.029788"
   },
   {
     "id": "novelkeys-cyl-copper-r2",
@@ -1302,11 +1308,9 @@
     "image_url": "https://mechanicalkeyboards.com/cdn/shop/files/1422-514M1-Vishay-BC-Components-Capacitor-K104K10X7RF5UH5-Pack-of-50.jpg?v=1707251179&width=640",
     "product_url": null,
     "retailer": "MechanicalKeyboards",
-    "specs": {
-      "layout": "Full"
-    },
-    "created_at": "2025-07-11 19:21:37",
-    "updated_at": "2025-07-11T21:21:37.478990"
+    "specs": {},
+    "created_at": "2025-07-11 19:39:24",
+    "updated_at": "2025-07-11T21:39:24.955608"
   },
   {
     "id": "mechanicalkeyboards-mk-yageo-resistor-cfr-25jb-52-",
@@ -1319,8 +1323,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:37",
-    "updated_at": "2025-07-11T21:21:37.478998"
+    "created_at": "2025-07-11 19:39:24",
+    "updated_at": "2025-07-11T21:39:24.955616"
   },
   {
     "id": "mechanicalkeyboards-mk-yageo-resistor-cfr-25jr-52-",
@@ -1333,8 +1337,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:37",
-    "updated_at": "2025-07-11T21:21:37.479012"
+    "created_at": "2025-07-11 19:39:24",
+    "updated_at": "2025-07-11T21:39:24.955629"
   },
   {
     "id": "mechanicalkeyboards-kraken-pink-sleeved-aviator-un",
@@ -1347,8 +1351,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983247"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014104"
   },
   {
     "id": "kbdfans-kbd8x-mkiii-pcb",
@@ -1363,8 +1367,8 @@
     "specs": {
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866392"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657115"
   },
   {
     "id": "novelkeys-matrix-ron-badge-pack",
@@ -1377,8 +1381,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/matrix-ron-badge-pack",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172131"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086446"
   },
   {
     "id": "mechanicalkeyboards-kraken-white-sleeved-aviator-u",
@@ -1391,8 +1395,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983269"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014113"
   },
   {
     "id": "novelkeys-skelett-40",
@@ -1404,9 +1408,11 @@
     "image_url": "https://novelkeys.com/cdn/shop/files/Skelett_40-1_800x800.jpg?v=1726493184",
     "product_url": "https://novelkeys.com/collections/keyboards/products/skelett-40-keyboard-kit",
     "retailer": "NovelKeys",
-    "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172168"
+    "specs": {
+      "layout": "40%"
+    },
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086481"
   },
   {
     "id": "novelkeys-skelett-60",
@@ -1421,8 +1427,8 @@
     "specs": {
       "layout": "60%"
     },
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172175"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086487"
   },
   {
     "id": "kbdfans-kbdfans-redux-60-rgb-ansi-pcb",
@@ -1438,8 +1444,8 @@
       "layout": "60%",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866370"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657105"
   },
   {
     "id": "kbdfans-pavlov-pcb",
@@ -1454,8 +1460,8 @@
     "specs": {
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866421"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657156"
   },
   {
     "id": "kbdfans-odin-r4-pcb",
@@ -1470,8 +1476,8 @@
     "specs": {
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866403"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657140"
   },
   {
     "id": "kbdfans-kbdfans-taco-pcb",
@@ -1486,8 +1492,8 @@
     "specs": {
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866412"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657148"
   },
   {
     "id": "novelkeys-keycult-no1---1800-darling-edition",
@@ -1499,9 +1505,11 @@
     "image_url": "https://novelkeys.com/cdn/shop/files/NKxKCxXerp_Darling1800-5_800x800.jpg?v=1738343649",
     "product_url": "https://novelkeys.com/collections/keyboards/products/keycult-no-1-1800-darling-edition-keyboard",
     "retailer": "NovelKeys",
-    "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172189"
+    "specs": {
+      "layout": "1800"
+    },
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086502"
   },
   {
     "id": "kbdfans-dz60rgb-v2-hot-swap-custom-keyboard-pcb",
@@ -1516,8 +1524,8 @@
     "specs": {
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866348"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657073"
   },
   {
     "id": "kbdfans-dz65-rgb-v3-hot-swap-rgb-pcb",
@@ -1533,8 +1541,8 @@
       "layout": "65%",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866080"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.656843"
   },
   {
     "id": "novelkeys-classic-glo",
@@ -1547,8 +1555,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/classic-glo-keyboard",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.171802"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086140"
   },
   {
     "id": "novelkeys-classic-tkl",
@@ -1563,8 +1571,8 @@
     "specs": {
       "layout": "TKL"
     },
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172113"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086430"
   },
   {
     "id": "kbdfans-pavlov",
@@ -1579,8 +1587,8 @@
     "specs": {
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866451"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657162"
   },
   {
     "id": "kbdfans-corgi-fairlady-alice",
@@ -1593,10 +1601,11 @@
     "product_url": "https://kbdfans.com/collections/pcb/products/corgi-fairlady-alice",
     "retailer": "KBDfans",
     "specs": {
+      "layout": "Alice",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866500"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657175"
   },
   {
     "id": "novelkeys-matrix-gator",
@@ -1609,8 +1618,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/matrix-gator",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172155"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086474"
   },
   {
     "id": "novelkeys-monokei-standard---megumi-edition",
@@ -1623,8 +1632,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/monokei-standard-megumi-edition",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172093"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086387"
   },
   {
     "id": "novelkeys-monokei-standard---yuji-edition",
@@ -1637,8 +1646,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/monokei-standard-yuji-edition",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172181"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086494"
   },
   {
     "id": "kbdfans-magnum65",
@@ -1654,8 +1663,8 @@
       "layout": "65%",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:08",
-    "updated_at": "2025-07-11T21:21:08.866536"
+    "created_at": "2025-07-11 19:38:55",
+    "updated_at": "2025-07-11T21:38:55.657184"
   },
   {
     "id": "novelkeys-neson-x-zephyr-z1",
@@ -1668,8 +1677,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/neson-z1",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172034"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086358"
   },
   {
     "id": "novelkeys-keycult-no-2-65",
@@ -1684,8 +1693,8 @@
     "specs": {
       "layout": "65%"
     },
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172102"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086412"
   },
   {
     "id": "novelkeys-random-warehouse-keyboards",
@@ -1698,8 +1707,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/random-warehouse-finds",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172085"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086376"
   },
   {
     "id": "novelkeys-matrix-navi",
@@ -1712,8 +1721,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/matrix-navi",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172196"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086508"
   },
   {
     "id": "novelkeys-keycult-no1-tkl",
@@ -1728,8 +1737,8 @@
     "specs": {
       "layout": "TKL"
     },
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172121"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086438"
   },
   {
     "id": "novelkeys-lily",
@@ -1742,8 +1751,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/lily-keyboard",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172206"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086514"
   },
   {
     "id": "novelkeys-neson-810e",
@@ -1756,8 +1765,8 @@
     "product_url": "https://novelkeys.com/collections/keyboards/products/neson-810e",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:20:04",
-    "updated_at": "2025-07-11T21:20:04.172140"
+    "created_at": "2025-07-11 19:37:51",
+    "updated_at": "2025-07-11T21:37:51.086460"
   },
   {
     "id": "novelkeys-nk65---mictlan-edition",
@@ -1812,8 +1821,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983177"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014039"
   },
   {
     "id": "mechanicalkeyboards-mk-usb-type-c-cable-black",
@@ -1840,8 +1849,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983159"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014023"
   },
   {
     "id": "mechanicalkeyboards-varmilo-ec-v2-rose-i-keychain",
@@ -1854,8 +1863,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983171"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014030"
   },
   {
     "id": "mechanicalkeyboards-glorious-pc-panda-toy-collecti",
@@ -1870,8 +1879,8 @@
     "specs": {
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983124"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013989"
   },
   {
     "id": "mechanicalkeyboards-ducky-flipper-r-extra-desk-mat",
@@ -1916,20 +1925,6 @@
     "updated_at": "2025-07-11T21:21:43.982727"
   },
   {
-    "id": "mechanicalkeyboards-varmilo-stuffed-panda-plushie",
-    "name": "Varmilo Stuffed Panda Plushie",
-    "category": "stabilizers",
-    "price": 17.0,
-    "currency": "USD",
-    "availability": 1,
-    "image_url": "https://mechanicalkeyboards.com/cdn/shop/files/22149-SGT74-MK-Stuffed-Panda.jpg?v=1724439627&width=73",
-    "product_url": null,
-    "retailer": "MechanicalKeyboards",
-    "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983117"
-  },
-  {
     "id": "mechanicalkeyboards-keychron-double-sleeved-geek-c",
     "name": "Keychron Double-Sleeved Geek Cable",
     "category": "stabilizers",
@@ -1942,6 +1937,20 @@
     "specs": {},
     "created_at": "2025-07-11 19:21:43",
     "updated_at": "2025-07-11T21:21:43.983236"
+  },
+  {
+    "id": "mechanicalkeyboards-varmilo-stuffed-panda-plushie",
+    "name": "Varmilo Stuffed Panda Plushie",
+    "category": "stabilizers",
+    "price": 17.0,
+    "currency": "USD",
+    "availability": 1,
+    "image_url": "https://mechanicalkeyboards.com/cdn/shop/files/22149-SGT74-MK-Stuffed-Panda.jpg?v=1724439627&width=73",
+    "product_url": null,
+    "retailer": "MechanicalKeyboards",
+    "specs": {},
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013981"
   },
   {
     "id": "mechanicalkeyboards-mk-frozen-llama-2xl-desk-mat",
@@ -2208,8 +2217,8 @@
     "specs": {
       "switch_type": "tactile"
     },
-    "created_at": "2025-07-11 19:21:20",
-    "updated_at": "2025-07-11T21:21:20.386717"
+    "created_at": "2025-07-11 19:39:07",
+    "updated_at": "2025-07-11T21:39:07.518740"
   },
   {
     "id": "mechanicalkeyboards-zeal-pc-purple-zealios-v2-tact",
@@ -2225,8 +2234,8 @@
       "switch_type": "tactile",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:20",
-    "updated_at": "2025-07-11T21:21:20.386729"
+    "created_at": "2025-07-11 19:39:07",
+    "updated_at": "2025-07-11T21:39:07.518760"
   },
   {
     "id": "mechanicalkeyboards-cherry-mx2a-black-60g-linear-s",
@@ -2241,8 +2250,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:21:20",
-    "updated_at": "2025-07-11T21:21:20.386762"
+    "created_at": "2025-07-11 19:39:07",
+    "updated_at": "2025-07-11T21:39:07.518792"
   },
   {
     "id": "mechanicalkeyboards-cherry-mx-clear-65g-tactile-sw",
@@ -2257,8 +2266,8 @@
     "specs": {
       "switch_type": "tactile"
     },
-    "created_at": "2025-07-11 19:21:20",
-    "updated_at": "2025-07-11T21:21:20.386770"
+    "created_at": "2025-07-11 19:39:07",
+    "updated_at": "2025-07-11T21:39:07.518800"
   },
   {
     "id": "mechanicalkeyboards-gateron-quinn-59g-tactile-pcb-",
@@ -2274,8 +2283,8 @@
       "switch_type": "tactile",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:20",
-    "updated_at": "2025-07-11T21:21:20.386779"
+    "created_at": "2025-07-11 19:39:07",
+    "updated_at": "2025-07-11T21:39:07.518817"
   },
   {
     "id": "mechanicalkeyboards-gateron-oil-king-v2-55g-linear",
@@ -2291,8 +2300,8 @@
       "switch_type": "linear",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:20",
-    "updated_at": "2025-07-11T21:21:20.386787"
+    "created_at": "2025-07-11 19:39:07",
+    "updated_at": "2025-07-11T21:39:07.518829"
   },
   {
     "id": "mechanicalkeyboards-kailh-choc-red-50g-low-profile",
@@ -2307,8 +2316,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:21:20",
-    "updated_at": "2025-07-11T21:21:20.386794"
+    "created_at": "2025-07-11 19:39:07",
+    "updated_at": "2025-07-11T21:39:07.518837"
   },
   {
     "id": "mechanicalkeyboards-cherry-mx2a-silent-red-45g-lin",
@@ -2323,8 +2332,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982962"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013702"
   },
   {
     "id": "mechanicalkeyboards-cherry-mx2a-brown-55g-tactile-",
@@ -2339,8 +2348,8 @@
     "specs": {
       "switch_type": "tactile"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982980"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013749"
   },
   {
     "id": "mechanicalkeyboards-gateron-jupiter-banana-59g-tac",
@@ -2356,8 +2365,8 @@
       "switch_type": "tactile",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.982992"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013796"
   },
   {
     "id": "mechanicalkeyboards-cherry-mx2a-blue-60g-clicky-sw",
@@ -2372,8 +2381,8 @@
     "specs": {
       "switch_type": "clicky"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983001"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013831"
   },
   {
     "id": "mechanicalkeyboards-gateron-ks-3-milky-yellow-pro-",
@@ -2389,8 +2398,8 @@
       "switch_type": "linear",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983009"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013842"
   },
   {
     "id": "mechanicalkeyboards-cherry-mx2a-speed-silver-45g-l",
@@ -2405,8 +2414,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983017"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013850"
   },
   {
     "id": "mechanicalkeyboards-kailh-box-white-45g-clicky-pla",
@@ -2421,8 +2430,8 @@
     "specs": {
       "switch_type": "clicky"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983026"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013858"
   },
   {
     "id": "mechanicalkeyboards-gateron-baby-kangaroo-20-59g-t",
@@ -2438,8 +2447,8 @@
       "switch_type": "tactile",
       "material": "polycarbonate"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983034"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013873"
   },
   {
     "id": "kbdfans-gateron-milky-housing-yellow-linear-switch",
@@ -2454,8 +2463,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984034"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244230"
   },
   {
     "id": "kbdfans-siliworksnapworks-nap-linear-switches",
@@ -2470,8 +2479,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983857"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243922"
   },
   {
     "id": "kbdfans-siliworks-sonja-linear-switches",
@@ -2486,8 +2495,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983834"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243859"
   },
   {
     "id": "kbdfans-sillyworks-hyacinth-linear-switch",
@@ -2502,8 +2511,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983975"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244062"
   },
   {
     "id": "kbdfans-designer-studio-x-esptiger-focus-magnetic-",
@@ -2516,8 +2525,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/designer-studio-x-esptiger-focus-magnetic-switch",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983573"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243537"
   },
   {
     "id": "kbdfans-cherry-black-mx-hyperglide-linear-switches",
@@ -2532,8 +2541,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983812"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243844"
   },
   {
     "id": "kbdfans-skyline-he-magnetic-switches",
@@ -2546,8 +2555,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/skyline-magnetic-switches",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983849"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243908"
   },
   {
     "id": "kbdfans-gateron-smoothie-linear-switch-set",
@@ -2562,8 +2571,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983962"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244035"
   },
   {
     "id": "kbdfans-cherry-mx2a-brown-mx2a-g1nw",
@@ -2576,8 +2585,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/cherry-mx2a-brown-mx2a-g1nw",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983968"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244045"
   },
   {
     "id": "kbdfans-cherry-mx-purple-mx2a-v1nw-tactile-switche",
@@ -2592,8 +2601,8 @@
     "specs": {
       "switch_type": "tactile"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983918"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243980"
   },
   {
     "id": "kbdfans-cherry-mx-orange-mx2a-lc3w-linear-switches",
@@ -2608,8 +2617,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983930"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243988"
   },
   {
     "id": "mechanicalkeyboards-mk-20-bomb-keycap-switch-keych",
@@ -2622,8 +2631,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983132"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013996"
   },
   {
     "id": "kbdfans-cherry-mx-black-clear-top-switches-mx1a-61",
@@ -2638,8 +2647,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984027"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244171"
   },
   {
     "id": "kbdfans-siliworks-type-r-tactile-switches",
@@ -2654,8 +2663,8 @@
     "specs": {
       "switch_type": "tactile"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983865"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243937"
   },
   {
     "id": "kbdfans-geon-raw-he-magnetic-switches",
@@ -2668,8 +2677,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/geon-raw-he-magnetic-switch",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983908"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243973"
   },
   {
     "id": "novelkeys-hmx-switch-sample-pack",
@@ -2682,8 +2691,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/hmx-switch-sample-pack",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613552"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653873"
   },
   {
     "id": "kbdfans-mount-tai-he-magnetic-switches",
@@ -2696,8 +2705,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/mount-tai-he-magnetic-switches",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983786"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243816"
   },
   {
     "id": "kbdfans-gateron-dual-rail-lunar-probe-linear-switc",
@@ -2712,8 +2721,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983944"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244003"
   },
   {
     "id": "kbdfans-gateron-melodic-clicky-switches",
@@ -2728,8 +2737,8 @@
     "specs": {
       "switch_type": "clicky"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983953"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244024"
   },
   {
     "id": "mechanicalkeyboards-mk-pro-rings-silicone-switch-d",
@@ -2742,8 +2751,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983351"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014182"
   },
   {
     "id": "kbdfans-gateron-ink-v2-black-linear-switches",
@@ -2758,8 +2767,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984047"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244268"
   },
   {
     "id": "kbdfans-gateron-magnetic-jade-gaming-he-switch-set",
@@ -2772,8 +2781,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/gateron-magnetic-jade-gaming-switch-set",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983893"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243955"
   },
   {
     "id": "kbdfans-gateron-magnetic-jade-pro-he-switch-set",
@@ -2786,8 +2795,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/gateron-magnetic-jade-pro-switch-set",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983902"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243964"
   },
   {
     "id": "kbdfans-gateron-magnetic-jade-he-switch-set",
@@ -2800,8 +2809,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/gateron-magnetic-jade-switch-set",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983936"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243995"
   },
   {
     "id": "kbdfans-gateron-ink-v2-silent-black-linear-switche",
@@ -2816,22 +2825,22 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984041"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244255"
   },
   {
     "id": "novelkeys-mm-switches",
     "name": "MM SWITCHES",
     "category": "switches",
-    "price": 8.904,
+    "price": 8.9,
     "currency": "USD",
     "availability": 1,
     "image_url": "https://novelkeys.com/cdn/shop/products/MM_Switch_Tile_800x800.jpg?v=1665589012",
     "product_url": "https://novelkeys.com/collections/switches/products/mm-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613566"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653886"
   },
   {
     "id": "kbdfans-gateron-magnetic-jade-max-he-switch-set",
@@ -2844,8 +2853,8 @@
     "product_url": "https://kbdfans.com/collections/switches/products/gateron-magnetic-jade-max-switch-set",
     "retailer": "KBDfans",
     "specs": {},
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983872"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243947"
   },
   {
     "id": "kbdfans-gateron-g-pro-30--blue-clicky-switches",
@@ -2860,8 +2869,8 @@
     "specs": {
       "switch_type": "clicky"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983981"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244073"
   },
   {
     "id": "kbdfans-gateron-g-pro-30-red-linear-switches",
@@ -2876,8 +2885,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983988"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244084"
   },
   {
     "id": "kbdfans-gateron-g-pro-30-brown-tactile-switches",
@@ -2892,8 +2901,8 @@
     "specs": {
       "switch_type": "tactile"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983995"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244094"
   },
   {
     "id": "kbdfans-gateron-g-pro-30-yellow-linear-switches",
@@ -2908,8 +2917,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984001"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244105"
   },
   {
     "id": "kbdfans-gateron-g-pro-30-black-linear-switches",
@@ -2924,8 +2933,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984007"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244114"
   },
   {
     "id": "kbdfans-gateron-g-pro-30-white-linear-switches",
@@ -2940,8 +2949,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984014"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244130"
   },
   {
     "id": "kbdfans-gateron-g-pro-30-silver-linear-switches",
@@ -2956,8 +2965,8 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984020"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244159"
   },
   {
     "id": "mechanicalkeyboards-mk-keychain-switch-opener",
@@ -2970,8 +2979,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983153"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014016"
   },
   {
     "id": "novelkeys-hmx-switches",
@@ -2984,8 +2993,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/hmx-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613530"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653846"
   },
   {
     "id": "mechanicalkeyboards-key-kobo-motosu-lake-cherry-pr",
@@ -3000,8 +3009,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983186"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014055"
   },
   {
     "id": "mechanicalkeyboards-key-kobo-helleborus-cherry-pro",
@@ -3016,8 +3025,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983227"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014097"
   },
   {
     "id": "novelkeys-cherry-mx2a-switches",
@@ -3030,8 +3039,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/cherry-mx2a-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613517"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653831"
   },
   {
     "id": "novelkeys-kailh-switches",
@@ -3044,8 +3053,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/kailh-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613464"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653778"
   },
   {
     "id": "novelkeys-novelkeys-classic-blue-switches",
@@ -3058,8 +3067,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/novelkeys-classic-blue-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613132"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653407"
   },
   {
     "id": "novelkeys-alexotos-granite-switches",
@@ -3072,8 +3081,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/alexotos-granite-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613381"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653707"
   },
   {
     "id": "novelkeys-the-big-switch-series",
@@ -3086,8 +3095,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/the-big-switch-series",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613451"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653765"
   },
   {
     "id": "novelkeys-nk-silk-awaken-switches",
@@ -3100,8 +3109,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/nk-silk-awaken-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613511"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653823"
   },
   {
     "id": "novelkeys-nk-silk-tfue-switches",
@@ -3114,8 +3123,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/nk-silk-tfue-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613524"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653840"
   },
   {
     "id": "mechanicalkeyboards-gmk-spacebar-kit---cyl-cherry-",
@@ -3128,8 +3137,8 @@
     "product_url": null,
     "retailer": "MechanicalKeyboards",
     "specs": {},
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983084"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013935"
   },
   {
     "id": "novelkeys-kailh-box-switches",
@@ -3142,8 +3151,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/kailh-box-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613404"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653745"
   },
   {
     "id": "novelkeys-gateron-baby-kangaroo-switches",
@@ -3156,8 +3165,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/gateron-baby-kangaroo-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613504"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653817"
   },
   {
     "id": "novelkeys-kbdfans-roller-switches",
@@ -3170,8 +3179,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/kbdfans-roller-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613560"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653880"
   },
   {
     "id": "kbdfans-gateron-oil-king-linear-switches",
@@ -3186,8 +3195,22 @@
     "specs": {
       "switch_type": "linear"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.984054"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.244279"
+  },
+  {
+    "id": "novelkeys-cherry-switches",
+    "name": "CHERRY SWITCHES",
+    "category": "switches",
+    "price": 23.4,
+    "currency": "USD",
+    "availability": 1,
+    "image_url": "https://novelkeys.com/cdn/shop/products/Cherry_BlackClearTop_23401f20-e335-4071-a028-fa431e7465a7_800x800.jpg?v=1681671055",
+    "product_url": "https://novelkeys.com/collections/switches/products/cherry-switches",
+    "retailer": "NovelKeys",
+    "specs": {},
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653772"
   },
   {
     "id": "novelkeys-cream-switches",
@@ -3200,8 +3223,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/cream-plus-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613477"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653791"
   },
   {
     "id": "novelkeys-ktt-switches",
@@ -3214,22 +3237,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/ktt-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613536"
-  },
-  {
-    "id": "novelkeys-cherry-switches",
-    "name": "CHERRY SWITCHES",
-    "category": "switches",
-    "price": 23.4014,
-    "currency": "USD",
-    "availability": 1,
-    "image_url": "https://novelkeys.com/cdn/shop/products/Cherry_BlackClearTop_23401f20-e335-4071-a028-fa431e7465a7_800x800.jpg?v=1681671055",
-    "product_url": "https://novelkeys.com/collections/switches/products/cherry-switches",
-    "retailer": "NovelKeys",
-    "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613458"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653859"
   },
   {
     "id": "novelkeys-gateron-switches",
@@ -3242,8 +3251,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/gateron-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613471"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653785"
   },
   {
     "id": "mechanicalkeyboards-ducky-black-backlit-108-key-ch",
@@ -3258,8 +3267,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003787"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142714"
   },
   {
     "id": "mechanicalkeyboards-keychron-grey---white---mint-1",
@@ -3274,8 +3283,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003664"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142601"
   },
   {
     "id": "mechanicalkeyboards-keychron-blue---black---yellow",
@@ -3290,8 +3299,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003716"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142655"
   },
   {
     "id": "mechanicalkeyboards-keychron-dolch-red-143-key-che",
@@ -3306,8 +3315,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983061"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.013906"
   },
   {
     "id": "mechanicalkeyboards-gmk-dandy-r2-cherry-profile-do",
@@ -3322,8 +3331,8 @@
     "specs": {
       "material": "abs"
     },
-    "created_at": "2025-07-11 19:21:43",
-    "updated_at": "2025-07-11T21:21:43.983212"
+    "created_at": "2025-07-11 19:39:31",
+    "updated_at": "2025-07-11T21:39:31.014082"
   },
   {
     "id": "kbdfans-magnetic-switches-x-65",
@@ -3338,8 +3347,8 @@
     "specs": {
       "layout": "65%"
     },
-    "created_at": "2025-07-11 19:20:51",
-    "updated_at": "2025-07-11T21:20:51.983841"
+    "created_at": "2025-07-11 19:38:39",
+    "updated_at": "2025-07-11T21:38:39.243891"
   },
   {
     "id": "novelkeys-nk_-cream-series",
@@ -3352,8 +3361,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/nk-cream-series",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613441"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653756"
   },
   {
     "id": "novelkeys-gateron-ink-switches",
@@ -3366,8 +3375,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/gateron-ink-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613483"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653802"
   },
   {
     "id": "mechanicalkeyboards-ducky-x-bethesda-fallout-132-k",
@@ -3382,8 +3391,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003725"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142663"
   },
   {
     "id": "novelkeys-cream-clicky-switches",
@@ -3398,8 +3407,8 @@
     "specs": {
       "switch_type": "clicky"
     },
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613491"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653810"
   },
   {
     "id": "novelkeys-ttc-switches",
@@ -3412,8 +3421,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/ttc-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 19:18:59",
-    "updated_at": "2025-07-11T21:18:59.613542"
+    "created_at": "2025-07-11 19:36:45",
+    "updated_at": "2025-07-11T21:36:45.653867"
   },
   {
     "id": "mechanicalkeyboards-vmk-white-on-black-171-key-che",
@@ -3428,8 +3437,8 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003835"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142783"
   },
   {
     "id": "mechanicalkeyboards-traitors-aurora-108-key-cherry",
@@ -3444,7 +3453,7 @@
     "specs": {
       "material": "pbt"
     },
-    "created_at": "2025-07-11 19:21:26",
-    "updated_at": "2025-07-11T21:21:26.003812"
+    "created_at": "2025-07-11 19:39:13",
+    "updated_at": "2025-07-11T21:39:13.142751"
   }
 ]
