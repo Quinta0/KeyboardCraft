@@ -1,28 +1,239 @@
-interface BuilderPageProps {
-  selectedComponents: SelectedComponents;
-  totalPrice: number;
-  activeTab: TabType;
-  tabs: { key: TabType; label: string }[];
-  sampleProducts: Record<TabType, Product[]>;
-  onNavigateToLanding: () => void;
-  onTabChange: (tab: TabType) => void;
-  onComponentSelect: (component: Product) => void;
-  incompatibleComponents: Set<string>;
-  checkCompatibility: (component: Product) => { compatible: boolean; reason?: string };
+'use client';
+
+import { useState } from 'react';
+import { ChevronLeftIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
+
+interface Product {
+  id: string;
+  name: string;
+  category: 'case' | 'pcb' | 'switches' | 'keycaps' | 'stabilizers';
+  price: number;
+  retailer: string;
+  image_url?: string;
+  product_url?: string;
+  specs: {
+    layout?: string;
+    pins?: number;
+    facing?: 'north' | 'south';
+    switch_type?: 'linear' | 'tactile' | 'clicky';
+    material?: string;
+  };
+  availability: boolean;
 }
 
-function BuilderPage({
-  selectedComponents,
-  totalPrice,
-  activeTab,
-  tabs,
-  sampleProducts,
-  onNavigateToLanding,
-  onTabChange,
-  onComponentSelect,
-  incompatibleComponents,
-  checkCompatibility,
-}: BuilderPageProps) {
+interface SelectedComponents {
+  case: Product | null;
+  pcb: Product | null;
+  switches: Product | null;
+  keycaps: Product | null;
+  stabilizers: Product | null;
+}
+
+type TabType = 'cases' | 'pcb' | 'switches' | 'keycaps' | 'stabilizers';
+
+export default function BuilderPage() {
+  const [selectedComponents, setSelectedComponents] = useState<SelectedComponents>({
+    case: null,
+    pcb: null,
+    switches: null,
+    keycaps: null,
+    stabilizers: null,
+  });
+  const [activeTab, setActiveTab] = useState<TabType>('cases');
+
+  // Sample data - in real app this would come from your API
+  const sampleProducts: Record<TabType, Product[]> = {
+    cases: [
+      {
+        id: 'tofu65-aluminum',
+        name: 'Tofu65 Aluminum',
+        category: 'case',
+        price: 89.99,
+        retailer: 'KBDfans',
+        specs: { layout: '65%', material: 'aluminum' },
+        availability: true,
+      },
+      {
+        id: 'gmmk-pro',
+        name: 'GMMK Pro',
+        category: 'case',
+        price: 169.99,
+        retailer: 'Glorious',
+        specs: { layout: '75%', material: 'aluminum' },
+        availability: true,
+      },
+      {
+        id: 'nk65-entry',
+        name: 'NK65 Entry',
+        category: 'case',
+        price: 129.99,
+        retailer: 'NovelKeys',
+        specs: { layout: '65%', material: 'polycarbonate' },
+        availability: true,
+      },
+    ],
+    pcb: [
+      {
+        id: 'dz65rgb-v3',
+        name: 'DZ65RGB V3',
+        category: 'pcb',
+        price: 45.99,
+        retailer: 'KBDfans',
+        specs: { layout: '65%', pins: 5, facing: 'south' },
+        availability: true,
+      },
+      {
+        id: 'gmmk-pro-pcb',
+        name: 'GMMK Pro PCB',
+        category: 'pcb',
+        price: 75.99,
+        retailer: 'Glorious',
+        specs: { layout: '75%', pins: 5, facing: 'south' },
+        availability: true,
+      },
+      {
+        id: 'bakeneko-pcb',
+        name: 'Bakeneko PCB',
+        category: 'pcb',
+        price: 59.99,
+        retailer: 'CannonKeys',
+        specs: { layout: '65%', pins: 3, facing: 'north' },
+        availability: true,
+      },
+    ],
+    switches: [
+      {
+        id: 'gateron-yellow',
+        name: 'Gateron Yellow',
+        category: 'switches',
+        price: 52.50,
+        retailer: 'KBDfans',
+        specs: { switch_type: 'linear', pins: 3 },
+        availability: true,
+      },
+      {
+        id: 'holy-pandas',
+        name: 'Holy Pandas',
+        category: 'switches',
+        price: 89.99,
+        retailer: 'Drop',
+        specs: { switch_type: 'tactile', pins: 5 },
+        availability: true,
+      },
+    ],
+    keycaps: [
+      {
+        id: 'gmk-olivia',
+        name: 'GMK Olivia',
+        category: 'keycaps',
+        price: 139.99,
+        retailer: 'Drop',
+        specs: { material: 'ABS' },
+        availability: true,
+      },
+    ],
+    stabilizers: [
+      {
+        id: 'durock-v2',
+        name: 'Durock V2',
+        category: 'stabilizers',
+        price: 25.99,
+        retailer: 'KBDfans',
+        specs: { material: 'Gold plated' },
+        availability: true,
+      },
+    ],
+  };
+
+  const totalPrice = Object.values(selectedComponents)
+    .filter(Boolean)
+    .reduce((sum, component) => sum + component!.price, 0);
+
+  const checkCompatibility = (newComponent: Product): { compatible: boolean; reason?: string } => {
+    // Check layout compatibility between case and PCB
+    if (newComponent.category === 'pcb') {
+      const selectedCase = selectedComponents.case;
+      if (selectedCase && selectedCase.specs.layout !== newComponent.specs.layout) {
+        return {
+          compatible: false,
+          reason: `${newComponent.specs.layout} PCB won't fit in ${selectedCase.specs.layout} case`
+        };
+      }
+    }
+    
+    if (newComponent.category === 'case') {
+      const selectedPCB = selectedComponents.pcb;
+      if (selectedPCB && selectedPCB.specs.layout !== newComponent.specs.layout) {
+        return {
+          compatible: false,
+          reason: `${selectedPCB.specs.layout} PCB won't fit in ${newComponent.specs.layout} case`
+        };
+      }
+    }
+
+    // Check pin compatibility between PCB and switches
+    if (newComponent.category === 'switches') {
+      const selectedPCB = selectedComponents.pcb;
+      if (selectedPCB && selectedPCB.specs.pins === 3 && newComponent.specs.pins === 5) {
+        return {
+          compatible: false,
+          reason: `5-pin switches need leg clipping for 3-pin PCB`
+        };
+      }
+    }
+
+    if (newComponent.category === 'pcb') {
+      const selectedSwitches = selectedComponents.switches;
+      if (selectedSwitches && newComponent.specs.pins === 3 && selectedSwitches.specs.pins === 5) {
+        return {
+          compatible: false,
+          reason: `5-pin switches need leg clipping for 3-pin PCB`
+        };
+      }
+    }
+
+    return { compatible: true };
+  };
+
+  const getIncompatibleComponents = (): Set<string> => {
+    const incompatible = new Set<string>();
+    
+    // Check all products against currently selected components
+    Object.values(sampleProducts).flat().forEach(product => {
+      const compatibility = checkCompatibility(product);
+      if (!compatibility.compatible) {
+        incompatible.add(product.id);
+      }
+    });
+    
+    return incompatible;
+  };
+
+  const incompatibleComponents = getIncompatibleComponents();
+
+  const handleComponentSelect = (component: Product) => {
+    const compatibility = checkCompatibility(component);
+    
+    if (!compatibility.compatible) {
+      // Don't allow selection of incompatible components
+      return;
+    }
+    
+    setSelectedComponents(prev => ({
+      ...prev,
+      [component.category]: component,
+    }));
+  };
+
+  const tabs: { key: TabType; label: string }[] = [
+    { key: 'cases', label: 'Cases' },
+    { key: 'pcb', label: 'PCBs' },
+    { key: 'switches', label: 'Switches' },
+    { key: 'keycaps', label: 'Keycaps' },
+    { key: 'stabilizers', label: 'Stabilizers' },
+  ];
+
   return (
     <div className="min-h-screen bg-slate-950 text-white">
       {/* Header */}
@@ -37,13 +248,13 @@ function BuilderPage({
                 KeyboardCraft
               </span>
             </div>
-            <button
-              onClick={onNavigateToLanding}
+            <Link
+              href="/"
               className="flex items-center space-x-2 text-slate-400 hover:text-white transition-colors"
             >
               <ChevronLeftIcon className="w-5 h-5" />
               <span>Back to Home</span>
-            </button>
+            </Link>
           </div>
         </div>
       </header>
@@ -58,7 +269,7 @@ function BuilderPage({
                 {tabs.map((tab) => (
                   <button
                     key={tab.key}
-                    onClick={() => onTabChange(tab.key)}
+                    onClick={() => setActiveTab(tab.key)}
                     className={`px-6 py-3 rounded-lg font-medium transition-all ${
                       activeTab === tab.key
                         ? 'bg-blue-600 text-white'
@@ -83,7 +294,7 @@ function BuilderPage({
                         ? checkCompatibility(product).reason 
                         : undefined
                     }
-                    onSelect={() => onComponentSelect(product)}
+                    onSelect={() => handleComponentSelect(product)}
                   />
                 ))}
               </div>
@@ -95,7 +306,6 @@ function BuilderPage({
             <BuildSummary 
               selectedComponents={selectedComponents} 
               totalPrice={totalPrice}
-              checkCompatibility={checkCompatibility}
             />
           </div>
         </div>
@@ -149,10 +359,9 @@ function ProductCard({ product, isSelected, isIncompatible, incompatibilityReaso
 interface BuildSummaryProps {
   selectedComponents: SelectedComponents;
   totalPrice: number;
-  checkCompatibility: (component: Product) => { compatible: boolean; reason?: string };
 }
 
-function BuildSummary({ selectedComponents, totalPrice, checkCompatibility }: BuildSummaryProps) {
+function BuildSummary({ selectedComponents, totalPrice }: BuildSummaryProps) {
   const hasComponents = Object.values(selectedComponents).some(Boolean);
   
   // Generate compatibility alerts
@@ -186,7 +395,7 @@ function BuildSummary({ selectedComponents, totalPrice, checkCompatibility }: Bu
         type: 'warning',
         message: `⚠️ ${selectedComponents.switches.name} (5-pin) will need leg clipping for ${selectedComponents.pcb.name} (3-pin)`
       });
-    } else {
+    } else if (selectedComponents.pcb && selectedComponents.switches) {
       compatibilityAlerts.push({
         type: 'success',
         message: `✅ ${selectedComponents.switches.name} switches are compatible with ${selectedComponents.pcb.name}`
