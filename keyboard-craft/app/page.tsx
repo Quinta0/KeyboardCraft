@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { ChevronLeftIcon } from '@heroicons/react/24/outline';
+import { useProductsByCategory, Product, TabType } from '../lib/hooks/useProducts';
 
 interface Product {
   id: string;
@@ -41,6 +42,15 @@ export default function HomePage() {
     stabilizers: null,
   });
   const [activeTab, setActiveTab] = useState<TabType>('cases');
+
+  // Use real product data when in builder mode
+  const { 
+    productsByCategory, 
+    loading, 
+    error, 
+    refetch, 
+    totalProducts 
+  } = useProductsByCategory();
 
   // Sample data - in real app this would come from your API
   const sampleProducts: Record<TabType, Product[]> = {
@@ -226,16 +236,40 @@ export default function HomePage() {
     }));
   };
 
-  const tabs: { key: TabType; label: string }[] = [
-    { key: 'cases', label: 'Cases' },
-    { key: 'pcb', label: 'PCBs' },
-    { key: 'switches', label: 'Switches' },
-    { key: 'keycaps', label: 'Keycaps' },
-    { key: 'stabilizers', label: 'Stabilizers' },
+  const tabs: { key: TabType; label: string; count: number }[] = [
+    { key: 'cases', label: 'Cases', count: productsByCategory.cases?.length || 0 },
+    { key: 'pcb', label: 'PCBs', count: productsByCategory.pcb?.length || 0 },
+    { key: 'switches', label: 'Switches', count: productsByCategory.switches?.length || 0 },
+    { key: 'keycaps', label: 'Keycaps', count: productsByCategory.keycaps?.length || 0 },
+    { key: 'stabilizers', label: 'Stabilizers', count: productsByCategory.stabilizers?.length || 0 },
   ];
 
   if (currentPage === 'landing') {
     return <LandingPage onNavigateToBuilder={() => setCurrentPage('builder')} />;
+  }
+
+  // Show error state if products failed to load
+  if (error) {
+    return (
+      <div className="min-h-screen bg-slate-950 text-white flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-red-400 mb-4">⚠️ Error loading products</div>
+          <p className="text-slate-400 mb-4">{error}</p>
+          <button 
+            onClick={refetch}
+            className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg mr-4"
+          >
+            Try Again
+          </button>
+          <button 
+            onClick={() => setCurrentPage('landing')}
+            className="bg-slate-600 hover:bg-slate-700 px-4 py-2 rounded-lg"
+          >
+            Back to Home
+          </button>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -244,7 +278,9 @@ export default function HomePage() {
       totalPrice={totalPrice}
       activeTab={activeTab}
       tabs={tabs}
-      sampleProducts={sampleProducts}
+      sampleProducts={productsByCategory}
+      loading={loading}
+      totalProducts={totalProducts}
       onNavigateToLanding={() => setCurrentPage('landing')}
       onTabChange={setActiveTab}
       onComponentSelect={handleComponentSelect}
@@ -438,8 +474,10 @@ interface BuilderPageProps {
   selectedComponents: SelectedComponents;
   totalPrice: number;
   activeTab: TabType;
-  tabs: { key: TabType; label: string }[];
+  tabs: { key: TabType; label: string; count: number }[];
   sampleProducts: Record<TabType, Product[]>;
+  loading: boolean;
+  totalProducts: number;
   onNavigateToLanding: () => void;
   onTabChange: (tab: TabType) => void;
   onComponentSelect: (component: Product) => void;
@@ -453,6 +491,8 @@ function BuilderPage({
   activeTab,
   tabs,
   sampleProducts,
+  loading,
+  totalProducts,
   onNavigateToLanding,
   onTabChange,
   onComponentSelect,

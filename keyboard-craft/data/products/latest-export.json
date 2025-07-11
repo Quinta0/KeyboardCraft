@@ -1,5 +1,70 @@
 [
   {
+    "id": "novelkeys-nk65---awaken-edition",
+    "name": "NK65 - Awaken Edition",
+    "category": "case",
+    "price": 50.0,
+    "currency": "USD",
+    "availability": 1,
+    "image_url": "https://novelkeys.com/cdn/shop/products/NK_AwakenNK65-TILE_800x800.jpg?v=1672858644",
+    "product_url": "https://novelkeys.com/collections/keyboards/products/nk65-awaken-edition",
+    "retailer": "NovelKeys",
+    "specs": {
+      "layout": "65%"
+    },
+    "created_at": "2025-07-11 18:58:58",
+    "updated_at": "2025-07-11T20:58:58.868870"
+  },
+  {
+    "id": "novelkeys-nk65---tfue-edition",
+    "name": "NK65 - TFUE Edition",
+    "category": "case",
+    "price": 50.0,
+    "currency": "USD",
+    "availability": 1,
+    "image_url": "https://cdn.shopify.com/s/files/1/3099/8088/t/22/assets/TFUE_Mark16512410441394.png?v=1651241041",
+    "product_url": "https://novelkeys.com/collections/keyboards/products/nk65-tfue-edition",
+    "retailer": "NovelKeys",
+    "specs": {
+      "layout": "65%"
+    },
+    "created_at": "2025-07-11 18:58:58",
+    "updated_at": "2025-07-11T20:58:58.869068"
+  },
+  {
+    "id": "novelkeys-nk65---aluminum-edition",
+    "name": "NK65 - Aluminum Edition",
+    "category": "case",
+    "price": 75.0,
+    "currency": "USD",
+    "availability": 1,
+    "image_url": "https://novelkeys.com/cdn/shop/products/NK65_Alu_NebulaPink_Top_800x800.jpg?v=1652968683",
+    "product_url": "https://novelkeys.com/collections/keyboards/products/nk65-v2-aluminum-edition",
+    "retailer": "NovelKeys",
+    "specs": {
+      "layout": "65%",
+      "material": "aluminum"
+    },
+    "created_at": "2025-07-11 18:58:58",
+    "updated_at": "2025-07-11T20:58:58.869088"
+  },
+  {
+    "id": "novelkeys-nk65---mictlan-edition",
+    "name": "NK65 - Mictlan Edition",
+    "category": "case",
+    "price": 99.0,
+    "currency": "USD",
+    "availability": 1,
+    "image_url": "https://novelkeys.com/cdn/shop/products/Mictlan_NK65_16x9-2_800x800.jpg?v=1652967829",
+    "product_url": "https://novelkeys.com/collections/keyboards/products/nk65-mictlan-edition",
+    "retailer": "NovelKeys",
+    "specs": {
+      "layout": "65%"
+    },
+    "created_at": "2025-07-11 18:58:58",
+    "updated_at": "2025-07-11T20:58:58.869080"
+  },
+  {
     "id": "novelkeys-gmk-child-kits",
     "name": "GMK Child Kits",
     "category": "keycaps",
@@ -10,8 +75,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-child-kits",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:18",
-    "updated_at": "2025-07-11T20:27:18.818871"
+    "created_at": "2025-07-11 18:58:53",
+    "updated_at": "2025-07-11T20:58:53.534708"
   },
   {
     "id": "novelkeys-cyl-copper-r2",
@@ -24,8 +89,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-copper-r2-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:18",
-    "updated_at": "2025-07-11T20:27:18.818889"
+    "created_at": "2025-07-11 18:58:53",
+    "updated_at": "2025-07-11T20:58:53.534728"
   },
   {
     "id": "novelkeys-cyl-beta---js-r2",
@@ -38,8 +103,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-beta-js-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:18",
-    "updated_at": "2025-07-11T20:27:18.818884"
+    "created_at": "2025-07-11 18:58:53",
+    "updated_at": "2025-07-11T20:58:53.534722"
   },
   {
     "id": "novelkeys-cyl-motif",
@@ -52,8 +117,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-motif-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:18",
-    "updated_at": "2025-07-11T20:27:18.818633"
+    "created_at": "2025-07-11 18:58:53",
+    "updated_at": "2025-07-11T20:58:53.534485"
   },
   {
     "id": "novelkeys-cyl-sloth",
@@ -66,8 +131,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-cyl-sloth-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:18",
-    "updated_at": "2025-07-11T20:27:18.818878"
+    "created_at": "2025-07-11 18:58:53",
+    "updated_at": "2025-07-11T20:58:53.534716"
   },
   {
     "id": "novelkeys-mtnu-skyriter",
@@ -80,8 +145,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/mtnu-skyriter-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:18",
-    "updated_at": "2025-07-11T20:27:18.818859"
+    "created_at": "2025-07-11 18:58:53",
+    "updated_at": "2025-07-11T20:58:53.534696"
   },
   {
     "id": "novelkeys-mtnu-copper-r2",
@@ -94,8 +159,8 @@
     "product_url": "https://novelkeys.com/collections/keycaps/products/gmk-mtnu-copper-r2-keycaps",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:18",
-    "updated_at": "2025-07-11T20:27:18.818895"
+    "created_at": "2025-07-11 18:58:53",
+    "updated_at": "2025-07-11T20:58:53.534734"
   },
   {
     "id": "novelkeys-mm-switches",
@@ -108,8 +173,8 @@
     "product_url": "https://novelkeys.com/collections/switches/products/mm-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:16",
-    "updated_at": "2025-07-11T20:27:16.546971"
+    "created_at": "2025-07-11 18:58:48",
+    "updated_at": "2025-07-11T20:58:48.234158"
   },
   {
     "id": "novelkeys-cherry-switches",
@@ -122,7 +187,7 @@
     "product_url": "https://novelkeys.com/collections/switches/products/cherry-switches",
     "retailer": "NovelKeys",
     "specs": {},
-    "created_at": "2025-07-11 18:27:16",
-    "updated_at": "2025-07-11T20:27:16.546732"
+    "created_at": "2025-07-11 18:58:48",
+    "updated_at": "2025-07-11T20:58:48.233921"
   }
 ]
