@@ -8,97 +8,182 @@ class NovelKeysScraper(BaseScraper):
         self.category_urls = {
             'switches': '/collections/switches',
             'keycaps': '/collections/keycaps',
-            'case': '/collections/keyboards',  # NovelKeys groups cases with keyboards
-            'stabilizers': '/collections/switches'  # Often in switches section
+            'case': '/collections/keyboards',
+            'pcb': '/collections/pcbs',  # Added PCB collection
+            'stabilizers': '/collections/accessories'  # Try accessories for stabilizers
+        }
+        
+        # Alternative URLs for better coverage
+        self.alternative_urls = {
+            'stabilizers': ['/collections/switches', '/collections/accessories', '/collections/parts'],
+            'pcb': ['/collections/keyboards', '/collections/diy'],
+            'case': ['/collections/diy', '/collections/kits']
         }
     
     def scrape_category(self, category: str) -> List[Dict]:
-        """Scrape NovelKeys category"""
+        """Scrape NovelKeys category with improved error handling"""
         if category not in self.category_urls:
             print(f"⚠️ Category '{category}' not supported for NovelKeys")
             return []
         
-        products = []
-        url = urljoin(self.base_url, self.category_urls[category])
+        # Try primary URL first
+        urls_to_try = [self.category_urls[category]]
         
-        print(f"🔍 Scraping NovelKeys {category} from {url}")
+        # Add alternative URLs
+        if category in self.alternative_urls:
+            urls_to_try.extend(self.alternative_urls[category])
         
+        all_products = []
+        
+        for url in urls_to_try:
+            full_url = urljoin(self.base_url, url)
+            print(f"🔍 Trying NovelKeys {category} from {full_url}")
+            
+            products = self._scrape_url(full_url, category)
+            
+            # Filter products to match target category
+            filtered_products = []
+            for product in products:
+                detected_category = self.categorize_product(product['name'], [], product.get('product_url', ''))
+                
+                # Only include if it matches our target category or is close enough
+                if detected_category == category or (category == 'case' and detected_category in ['pcb']) or \
+                   (category == 'stabilizers' and 'stab' in product['name'].lower()):
+                    filtered_products.append(product)
+            
+            if filtered_products:
+                print(f"✅ Found {len(filtered_products)} {category} products from {full_url}")
+                all_products.extend(filtered_products)
+            
+        # Remove duplicates based on name and price
+        unique_products = []
+        seen = set()
+        for product in all_products:
+            key = (product['name'], product['price'])
+            if key not in seen:
+                seen.add(key)
+                unique_products.append(product)
+        
+        print(f"📦 Total unique {category} products from NovelKeys: {len(unique_products)}")
+        return unique_products
+    
+    def _scrape_url(self, url: str, category: str) -> List[Dict]:
+        """Scrape products from a specific URL"""
         soup = self.get_page(url)
         if not soup:
-            return products
+            return []
         
-        # NovelKeys uses different class names
-        product_items = soup.find_all('div', class_='product-card')
+        products = []
         
-        if not product_items:
-            # Try alternative selectors
-            product_items = soup.find_all('div', class_='grid-product') or soup.find_all('div', class_='product-item')
+        # NovelKeys selector strategies
+        selector_strategies = [
+            # Strategy 1: Modern NovelKeys product cards
+            {
+                'container': '.product-card, .grid-product, .product-item',
+                'title': '.product-card__title, .grid-product__title, h3, h4',
+                'price': '.price, .money, .product-card__price',
+                'link': 'a',
+                'image': 'img'
+            },
+            # Strategy 2: Alternative structure
+            {
+                'container': 'div[data-product-id], article, .product',
+                'title': '.product-title, .title, h2, h3',
+                'price': '.price, .cost, [class*="price"]',
+                'link': 'a',
+                'image': 'img'
+            },
+            # Strategy 3: Generic Shopify structure
+            {
+                'container': '.grid__item, .collection-product, li[class*="product"]',
+                'title': '.product-name, .grid-product__title, h3, h4',
+                'price': '.price, .money, [data-price]',
+                'link': 'a',
+                'image': 'img'
+            }
+        ]
         
-        if not product_items:
-            print(f"⚠️ No products found on {url} - site structure may have changed")
-            return products
+        for strategy in selector_strategies:
+            print(f"🔍 Trying NovelKeys selector strategy: {strategy['container']}")
+            containers = soup.select(strategy['container'])
+            
+            if containers:
+                print(f"📦 Found {len(containers)} product containers")
+                products = self._extract_products(containers, strategy, category, url)
+                if products:
+                    return products
+            else:
+                print(f"⚠️ No containers found with selector: {strategy['container']}")
         
-        for item in product_items:
+        # Debug if no products found
+        self.debug_page_structure(soup, url)
+        return []
+    
+    def _extract_products(self, containers: list, strategy: dict, category: str, base_url: str) -> List[Dict]:
+        """Extract product information using the given strategy"""
+        products = []
+        
+        for container in containers:
             try:
-                title_elem = (item.find('h3', class_='product-card__title') or 
-                             item.find('h3') or
-                             item.find('a'))
-                
-                price_elem = (item.find('span', class_='price') or 
-                             item.find('span', class_='money') or
-                             item.find('div', class_='price'))
-                
-                link_elem = item.find('a')
-                img_elem = item.find('img')
-                
-                if not (title_elem and price_elem):
+                # Extract title
+                title_elem = container.select_one(strategy['title'])
+                if not title_elem:
                     continue
                 
                 title = title_elem.get_text(strip=True)
-                
-                # Skip if not relevant to category
-                if category == 'case' and any(word in title.lower() for word in ['switch', 'key', 'stab']):
+                if not title:
                     continue
                 
-                price = self.parse_price(price_elem.get_text(strip=True))
-                
-                if price == 0:
+                # Extract price
+                price_elem = container.select_one(strategy['price'])
+                if not price_elem:
                     continue
                 
-                product_url = urljoin(self.base_url, link_elem['href']) if link_elem else None
-                image_url = img_elem.get('src') or img_elem.get('data-src') if img_elem else None
+                price_text = price_elem.get_text(strip=True)
+                price = self.parse_price(price_text)
                 
-                if image_url and not image_url.startswith('http'):
-                    image_url = urljoin(self.base_url, image_url)
+                if not self.is_valid_product(title, price):
+                    continue
                 
-                specs = self.extract_specs(title)
+                # Extract link
+                link_elem = container.select_one(strategy['link'])
+                product_url = None
+                if link_elem and link_elem.get('href'):
+                    product_url = urljoin(base_url, link_elem['href'])
                 
-                # Auto-categorize if we're in a mixed category
-                detected_category = self.categorize_product(title)
-                if detected_category != 'unknown':
-                    actual_category = detected_category
-                else:
-                    actual_category = category
+                # Extract image
+                img_elem = container.select_one(strategy['image'])
+                image_url = None
+                if img_elem:
+                    img_src = img_elem.get('src') or img_elem.get('data-src') or img_elem.get('data-original')
+                    if img_src:
+                        image_url = urljoin(base_url, img_src)
+                
+                # Extract specs
+                specs = self.extract_specs(title, '', product_url or '')
+                
+                # Check availability
+                availability = 1  # Default to available
+                sold_out_indicators = container.select('.sold-out, .unavailable, [class*="sold"]')
+                if sold_out_indicators or any(phrase in price_text.lower() for phrase in ['sold out', 'unavailable']):
+                    availability = 0
                 
                 product = {
                     'name': title,
-                    'category': actual_category,
+                    'category': category,
                     'price': price,
                     'retailer': self.retailer_name,
                     'product_url': product_url,
                     'image_url': image_url,
                     'specs': specs,
-                    'availability': 1
+                    'availability': availability
                 }
                 
-                # Only add if it matches our target category or is close enough
-                if actual_category == category or (category == 'case' and actual_category in ['pcb']):
-                    products.append(product)
-                    print(f"✅ Found: {title} - ${price}")
+                products.append(product)
+                print(f"✅ Found: {title} - ${price}")
                 
             except Exception as e:
                 print(f"❌ Error parsing NovelKeys product: {e}")
                 continue
         
-        print(f"📦 Found {len(products)} products in {category} from NovelKeys")
         return products
